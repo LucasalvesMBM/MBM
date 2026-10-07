@@ -1,0 +1,43 @@
+{
+  "compilerOptions": {
+    // Target & Module
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "ignoreDeprecations": "6.0",
+
+    // JSX
+    "jsx": "react-jsx",
+
+    // Interoperabilidade
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true,
+
+    // Tipos
+    "types": ["node"],
+
+    // Stricter Typechecking Options
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "exactOptionalPropertyTypes": true,
+    "isolatedModules": true,
+    "skipLibCheck": true,
+
+    // Debug / Output
+    "sourceMap": true,
+    "declaration": true,
+    "declarationMap": true,
+    "verbatimModuleSyntax": true,
+    "moduleDetection": "force",
+
+    // Import safety
+    "noUncheckedSideEffectImports": true,
+
+  },
+
+  "include": ["frontend/src/**/*"],
+  "exclude": ["frontend/node_modules"]
+  
+  
+}
