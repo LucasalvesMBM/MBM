@@ -1,0 +1,21 @@
+
+{
+  "$schema": "./node_modules/@stryker-mutator/core/schema/stryker-schema.json",
+  "testRunner": "tap",
+  "mutate": [
+    "services/**/*.js",
+    "repositories/**/*.js"
+  ],
+  "tap": {
+    "testFiles": [
+      "tests/**/*.test.js"
+    ]
+  },
+  "reporters": [
+    "clear-text",
+    "progress",
+    "html"
+  ],
+  "coverageAnalysis": "perTest",
+  "concurrency": 2
+}
